@@ -9,10 +9,10 @@ from pprint import pprint
 
 
 #get the following by creating an app on dev.twitter.com
-consumer_key = "TvkFGD16UaOB9GZvoigdAGgGi"
-consumer_secret = "8rB1pd4vVrUYXSfxoyL1OI8WRKfnDmC6Ff2JPHcUnvCENUa4zO"
-access_token = "862555235624960000-MY47PiufxXvBhd35h6zS7d4T9foc3mU"
-access_token_secret = "1R1f3ABnXMVkZQT9joasPcU1to0aZqiEfIuTAoZDeDZyG"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
