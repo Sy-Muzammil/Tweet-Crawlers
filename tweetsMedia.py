@@ -1,3 +1,13 @@
+"""
+Tweets downloaded in csv file in the following format:
+<Tweet ID> <Date> <Tweet-Text> <Media-URL>
+It only downloads those tweets which contains both Hash-Tags and ImageUrls.
+It recursively adds the UserName from seed Users and downloads their tweets recursively as well. 
+It also  keeps track of users already crawled.
+
+"""
+
+
 import tweepy #https://github.com/tweepy/tweepy
 import csv
 import sys
